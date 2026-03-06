@@ -109,7 +109,8 @@ Just enter the URL: http://my_IBM_i:35810
 Note: The interesting part is that a request originating from the same machine does not trigger the 
       misbehaving of the threads. Only a request from outside the machine does.
       
-      
+Note: The demo application does not send anything back. It just outputs the content of the incoming
+      data and then closes the connection.      
       
 ## Thread Dump
 
